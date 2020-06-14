@@ -115,6 +115,7 @@
 .description__two-colums_main-text_paragraph_1 {
   margin-bottom: 20px;
   margin-top: 0; /* flex-star не дал результата */
+  border: 2px solid goldenrod;
 }
 
 .bold {
@@ -133,7 +134,7 @@
   background: wheat;
 }
 
-.digits__dection-title {
+.digits__section-title {
   width: 60%;
   border: 2px solid red;
   margin: 100px auto 0;
@@ -143,6 +144,9 @@
   font-size: 60px;
   font-weight: 700;
   }
+.bone {
+  margin: 0 auto;
+}
 
 .digits__section-subtitle {
   width: 60%;
@@ -171,8 +175,10 @@
   width: 250px;
   margin-top: 60px;
   margin-bottom: 0;
+
   background: red;
   display:table-cell;
+  border: 2px solid slateblue;
 }
 
 .digits__table_cell_heading {
@@ -193,21 +199,14 @@
   vertical-align:bottom;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .feynman {
-  margin-top: 100px;
   height: 890px;
   background: silver;
   position: relative;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
+  padding-top: 100px;
 }
 
 .feynman__title {
@@ -219,7 +218,37 @@
   font-style: bold;
   text-align: center;
   z-index: 100;
-  }
+  justify-content: center;
+  border: 2px solid green;
+  z-index: 10;
+}
+
+.feynman__subtitle {
+  position: absolute;
+  top: 200px;
+  right: 500px;
+  width: 648px;
+  font-size: 36px;
+  line-height: 51px;
+  font-style: normal;
+  text-align: center;
+  z-index: 100;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid green;
+  z-index: 10;
+}
+
+.feynman__link {
+  font-size: 36px;
+  line-height: 51px;
+  font-style: normal;
+  position: absolute;
+  align-items: center;
+  right: 48px;
+  border: 2px solid green;
+  z-index: 10;
+}
 
 .feynman__img {
   position: absolute;
@@ -228,4 +257,69 @@
   height: 637px;
   width: 867px;
   z-index: 0;
+  border: 2px solid green;
+  z-index: 10;
+}
+
+.kaufman {
+background-color: black;
+display: flex;
+flex-direction: column;
+border: 2px solid red;
+position: relative;
+justify-content: flex-end;
+align-items: center;
+}
+
+.section-title__theme_dark {
+  width: 60%;
+  margin-top: 90px;
+  color: white;
+  line-height: 69px;
+  font-size: 60px;
+  font-style: 700;
+  z-index: 10;
+}
+
+.section-subtitle__theme_dark {
+  width: 60%;
+  margin-top: 20px;
+  color: white;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  z-index: 10;
+}
+
+.table__theme_dark {
+  margin-bottom: 90px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 10;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-style: 700;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.kaufman__triagle {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 844px;
+  height: 877px;
+  z-index: 1;
 }
