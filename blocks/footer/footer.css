@@ -1,0 +1,81 @@
+@import url(../logo/logo.css);
+@import url(./__logo/logo_place_footer.css);
+
+.footer {
+  background-color: #1f1f1f;
+  padding: 60px 0 40px;
+}
+
+.footer__columns {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  min-height: 250px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.footer__author {
+  margin: 18px 0;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.footer__column_content_info {
+  justify-content: flex-start;
+}
+
+.footer__column-heading {
+  color: white;
+  margin: 0 0 20px 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  color: white;
+  padding: 0 0 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer__column_content_social {
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.footer__social-icon {
+  color: white;
+  margin: 0;
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__links {
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
