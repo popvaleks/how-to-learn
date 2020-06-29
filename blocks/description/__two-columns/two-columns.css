@@ -1,8 +1,0 @@
-@import url(./_brief/two-columns__brief.css);
-@import url(./_main-text/two-columns__main-text.css);
-
-.two-columns {
-  display: flex;
-  width: 80%;
-  justify-content: space-between;
-}

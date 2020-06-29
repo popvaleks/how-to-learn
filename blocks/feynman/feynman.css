@@ -1,6 +1,6 @@
 @import url(./__link/feynman__link.css);
-@import url(../section-title/section__title.css);
-@import url(../section-subtitle/section__subtitle.css);
+@import url(./__title/feynman__title.css);
+@import url(./__subtitle/feynman__subtitle.css);
 
 
 .feynman {
