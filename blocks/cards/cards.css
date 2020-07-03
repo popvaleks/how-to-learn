@@ -4,12 +4,15 @@
 @import url(./__title/cards__title.css);
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   width: 920px;
-  justify-content: space-between;
-  align-content: center;
-  align-items: stretch;
+  /* justify-content: flex-start; */
+  /* align-content: flex-start; */
+  /* align-items: stretch; */
+  display: grid;
+  /* grid-template-columns: 200px 200px 200px; */
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
   padding: 0;
   list-style-type: none;

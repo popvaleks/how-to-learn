@@ -1,12 +1,8 @@
-.animation__rotation {
+.rotation {
   animation-name: rotation;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
-
-#overflow {
-  overflow: hidden;
 }
 
 @keyframes rotation {
